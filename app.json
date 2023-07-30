@@ -1,10 +1,9 @@
 {
   "expo": {
-    "name": "moneymaker-ui",
+    "name": "Money Maker",
     "slug": "moneymaker-ui",
     "version": "1.0.0",
-    "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/favicon.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -21,12 +20,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/adaptive_icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.ulagellam.moneymaker_ui"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "73905166-e049-48f0-a3e0-25e84b734b04"
+      }
     }
   }
 }
