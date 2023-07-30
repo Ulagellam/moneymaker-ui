@@ -21,7 +21,7 @@ jobs:
         run: npm ci
 
       - name: Build Expo web app
-        run: npx expo build:web
+        run: npm run build:web
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
