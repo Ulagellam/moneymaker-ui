@@ -1,0 +1,16 @@
+{
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "lang": "en",
+  "name": "Money Maker",
+  "short_name": "Money Maker",
+  "start_url": "/?utm_source=web_app_manifest",
+  "related_applications": [
+    {
+      "platform": "play",
+      "url": "http://play.google.com/store/apps/details?id=com.ulagellam.moneymaker_ui",
+      "id": "com.ulagellam.moneymaker_ui"
+    }
+  ],
+  "prefer_related_applications": true
+}
